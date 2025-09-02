@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "portfolio/\r │── index.html\r │── package.json\r │── tailwind.config.js\r │── postcss.config.js\r │── vite.config.js\r │── /node_modules\r │── /public\r │── /src\r     │── App.jsx\r     │── index.css\r     │── main.jsx\r     │── /components\r           │── Header.jsx\r           │── About.jsx\r           │── Projects.jsx\r           │── Contact.jsx\r           │── Footer.jsx",
+  "main": "postcss.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://<username>.github.io/Portfolio/",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "@vitejs/plugin-react": "^5.0.2",
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12",
+    "vite": "^7.1.3"
+  }
+}

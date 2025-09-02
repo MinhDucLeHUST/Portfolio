@@ -1,0 +1,26 @@
+# 🚀 Portfolio - Deploy React (Vite) lên GitHub Pages
+
+## Cài đặt dependencies
+
+```bash
+npm install
+npm install vite @vitejs/plugin-react gh-pages --save-dev
+```
+
+## Mỗi khi chỉnh sửa code (App.jsx, App.css, components/...) và muốn cập nhật web:
+
+npm run deploy
+
+### Cấu hình GitHub Pages
+
+1. Push code lên GitHub.
+
+2. Vào repo → Settings → Pages.
+
+3. Chọn branch gh-pages và folder /root.
+
+Link web: https://<username>.github.io/Portfolio/
+=> https://minhduclehust.github.io/Portfolio/
+
+CV:
+https://minhduclehust.github.io/Portfolio/CV_LeMinhDuc.pdf
